@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Lab - 40 Minis</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .highlight { background-color: yellow; }
+    .active { border: 2px solid red; }
+    .card { border: 1px solid #ccc; padding: 10px; margin: 5px; border-radius: 8px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+  <h1 id="title">DOM Practice Lab</h1>
+  <h2>Sample Subheading</h2>
+  
+  <p>This is paragraph one.</p>
+  <p class="highlight">This is paragraph two with highlight class.</p>
+  <p>This is paragraph three.</p>
+
+  <div id="container">
+    <p>Inside a div container</p>
+  </div>
+
+  <ul id="list">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+  </ul>
+
+  <img id="sampleImage" src="https://placehold.co/100x100" alt="Sample">
+
+  <div id="output"></div>
+
+  <button id="mainButton">Click Me</button>
+  <input type="text" id="userInput" placeholder="Type something">
+  <button id="displayButton">Display Text</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
